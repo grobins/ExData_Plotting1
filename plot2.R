@@ -2,7 +2,7 @@
 source('loadPowerData.R')
 
 # Open png device
-png(filename = 'plot2.png', width = 480, height = 480, units = 'px')
+png(filename = 'plot2.png', width = 480, height = 480, units = 'px',bg = "transparent")
 
 # Make plot
 plot(df$DateTime, df$Global_active_power,

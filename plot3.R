@@ -2,7 +2,7 @@
 source('loadPowerData.R')
 
 # Open png device
-png(filename = 'plot3.png', width = 480, height = 480, units = 'px')
+png(filename = 'plot3.png', width = 480, height = 480, units = 'px',bg = "transparent")
 
 # Make plot
 plot(df$DateTime, df$Sub_metering_1, type='l',

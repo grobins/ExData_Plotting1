@@ -2,7 +2,7 @@
 source('loadPowerData.R')
 
 # Open png device
-png(filename = 'plot1.png', width = 480, height = 480, units = 'px')
+png(filename = 'plot1.png', width = 480, height = 480, units = 'px',bg = "transparent")
 
 # Make plot
 hist(df$Global_active_power, main='Global Active Power', 
